@@ -1,0 +1,80 @@
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: red; */
+  height:100vh;
+}
+.box{
+ height: 50px;
+ width:50px;
+ margin: 20px;
+ border:2px solid white;
+  cursor: pointer;
+}
+/* .box:hover{
+  border:2px solid white;
+  cursor: pointer;
+} */
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Crimson{
+  background-color: #dc143c;
+}
+.RoyalBlue {
+  background-color: #4169E1;
+}
+
+.ForestGreen {
+  background-color: #388E3C;
+}
+
+.Gold {
+  background-color: #FFD700;
+}
+
+.Magenta {
+  background-color: #FF00FF;
+}
+
+.Cyan {
+  background-color: #00FFFF;
+}
+
+.Turquoise {
+  background-color: #40E0D0;
+}
+
+.Violet {
+  background-color: #EE82EE;
+}
+
+.Orange {
+  background-color: #FFA500;
+}
+
+.Silver {
+  background-color: #C0C0C0;
+}
+
+.Gray {
+  background-color: #808080;
+}
+
+.Navy {
+  background-color: #000080;
+}
+button{
+  margin:10px;
+  background-color: grey;
+  color:white;
+  font-size: xx-large;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border: 2px solid white;
+}
